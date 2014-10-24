@@ -1,0 +1,40 @@
+{
+  "name": "convertible",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "description": "Transcode video files using different strategies",
+  "homepage": "https://github.com/davearata/convertible",
+  "bugs": "https://github.com/davearata/convertible/issues",
+  "author": {
+    "name": "Dave Arata",
+    "email": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davearata/convertible"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "convertible",
+    "transcode",
+    "video",
+    "node"
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "^1.10.0",
+    "jshint-stylish": "^0.2.0",
+    "load-grunt-tasks": "^0.4.0",
+    "sinon": "^1.10.3",
+    "time-grunt": "^0.3.1"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "preferGlobal": "true"
+}
